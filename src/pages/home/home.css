@@ -1,0 +1,29 @@
+.home{
+    flex: 4;
+    padding-top: 10px;
+    background-color: #F9FAFB;
+}
+
+.homeWidgets{
+    display: flex;
+    margin: 20px;
+}
+
+.transaction {
+    margin: 20px;
+    border-radius: 20px !important;
+}
+
+@media screen and (max-width: 576px) {
+    .home{
+        width: 426px;
+        flex: 1;
+    }
+    .homeWidgets{
+        flex-direction: column;
+    }
+    .transaction {
+        margin: 0;
+        border-radius: 0 !important;
+    }
+}
